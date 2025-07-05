@@ -528,7 +528,7 @@ body.gallerypage{
  body.jerseys {
     background-color: black;
  }
- .heading-1{
+ .main-1{
   font-size: 2rem;
  }
 .picture{
@@ -545,7 +545,6 @@ body.gallerypage{
     height:500px
 }
 .blue-img{
-  position: relative;
     height:450px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -569,63 +568,44 @@ body.gallerypage{
 .footer img{
     background-color: white;
 }
-/* Tablets and small laptops */
-@media (max-width: 992px) {
+/* For tablets and smaller laptops */
+@media screen and (max-width: 1200px) {
   .blue {
     width: 45%;
-    height: 420px;
-  }
-.picture{
-  row-gap: 5px;
-}
-  .blue-img {
-    height: 350px;
-  }
-
-  .blue p {
-    font-size: 2rem;
-  }
-
-  .footer {
-    font-size: 1.6rem;
-    height: auto;
-    padding: 20px 10px;
   }
 }
 
-/* Phones */
-@media (max-width: 600px) {
-  .heading-1{
-    font-size: 1.5rem;
-  }
+/* For large phones and small tablets */
+@media screen and (max-width: 900px) {
   .blue {
-    width: 90%;
-    height: 400px;
+    width: 80%;
+  }
+}
+
+/* For phones (Moto G64, Galaxy Fold, 430px width, iPhones) */
+@media screen and (max-width: 600px) {
+  .blue {
+    width: 100%;
   }
 
-  .blue-img {
-    height: 300px;
-  }
   .blue p {
-    font-size: 2rem;
-  }
-  .picture{
-    row-gap:5px;
-  }
-  .footer {
-    font-size: 1.2rem;
-    word-spacing: normal;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 20px;
-  }
-  .footer img {
-    width: 60px;
-    margin-top: 10px;
+    font-size: 1.6rem;
   }
 
+  .main-1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .footer {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+
+  .footer img {
+    width: 50px;
+  }
 }
 .scenes{
     background-color:#f5f5dcaa;
