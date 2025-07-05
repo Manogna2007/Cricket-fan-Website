@@ -578,7 +578,7 @@ body.gallerypage{
 /* For large phones and small tablets */
 @media screen and (max-width: 900px) {
   .blue {
-    width: 80%;
+    width: 90%;
   }
 }
 
