@@ -669,7 +669,7 @@ body.gallerypage{
   }
     .main-3{
         font-size:1.4rem;
-        margin:auto;
+        margin-left:3px;
 }
 }
 /*phones (≤ 430px width) */
@@ -693,7 +693,7 @@ body.gallerypage{
   }
     .main-3{
         font-size:1.2rem;
-        margin:auto
+        margin-left:3px;
 }
 }
 
@@ -709,6 +709,7 @@ body.gallerypage{
   }
     .main-3{
         font-size:1.1rem;
+        margin-left:2px;
 }
 }
 .fans{
