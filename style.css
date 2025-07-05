@@ -585,7 +585,7 @@ body.gallerypage{
 /* For phones (Moto G64, Galaxy Fold, 430px width, iPhones) */
 @media screen and (max-width: 600px) {
   .blue {
-    width: 100%;
+    width: 90%;
   }
 
   .blue p {
@@ -700,7 +700,7 @@ body.gallerypage{
 /* Extra small devices (≤ 360px, like old Android phones) */
 @media screen and (max-width: 360px) {
   .image-2 {
-    width: 100%;
+    width: 90%;
     height: 160px;
   }
 
