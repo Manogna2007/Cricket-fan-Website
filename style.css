@@ -629,13 +629,16 @@ body.gallerypage{
 .section-1{
     margin-top: 30px;
 }
-.heading-1{
-     height:100px;
-     font-size: 2rem;
-     color: black;
-     margin-left: 25px;
-     text-decoration: underline;
+.main-2{
+  font-size:2rem;
+    color:black;
+    text-align:center;
 }
+.main-3{
+ font-size:1.5rem;
+    margin-left:20px;
+    color:brown;
+    
 
 .flex{
     display:flex;
@@ -677,14 +680,16 @@ body.gallerypage{
     gap: 20px;
   }
 
-  .heading-1 {
+  .main-2 {
     font-size: 1.6rem;
     text-align: center;
-    margin-left: 0;
   }
+    .main-3{
+        font-size:1rem;
+        margin:auto;
 }
-
-/* ✅ For Moto G64 and similar phones (≤ 430px width) */
+}
+/*phones (≤ 430px width) */
 @media screen and (max-width: 430px) {
   .image-2 {
     width: 95%;
@@ -698,11 +703,15 @@ body.gallerypage{
     justify-content: center;
   }
 
-  .heading-1 {
+  .main-2 {
     font-size: 1.4rem;
     text-align: center;
     margin-left: 0;
   }
+    .main-3{
+        font-size:1rem;
+        margin:auto
+}
 }
 
 /* Extra small devices (≤ 360px, like old Android phones) */
@@ -712,9 +721,12 @@ body.gallerypage{
     height: 160px;
   }
 
-  .heading-1 {
+  .main-2 {
     font-size: 1.2rem;
   }
+    .main-3{
+        font-size:0.7rem;
+}
 }
 .fans{
     background-color:black;
