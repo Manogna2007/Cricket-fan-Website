@@ -21,7 +21,7 @@ The Cricket Fan Website is created to serve as a one-stop destination for cricke
 ## 🛠 Tech Stack Used
 
 - *HTML5*
-- *CSS6*
+- *CSS3*
 - Responsive design using *Flexbox* and *Media Queries*
 - Visual Studio Code (VS Code)
 
